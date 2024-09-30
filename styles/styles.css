@@ -4,6 +4,29 @@
     --color-terciary: #b8b8b9;
 }
 
+.header {
+    padding: 0;
+}
+
+.nombre-equipo {
+    background-color: var(--color-main) 
+
+}
+
+nav {
+    background-color: var(--color-secondary); /* Color de fondo de la barra de navegación */
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul {
+    list-style-type: none;  /* Quitar puntos */
+    display: flex;
+    justify-content: center; /* display para centrar los links */ 
+    margin: 20px; 
+    padding: 20px; 
+}
+
 .footer {
     background-color: white;
     padding: 1em 0;
@@ -71,30 +94,4 @@ width: 320px;
     text-decoration: none;
     color: var(--color-terciary); 
     font-size: 20px;
-}
-
-
-
-
-.header {
-    padding: 0;
-}
-
-.nombre-equipo {
-    background-color: var(--color-main) 
-
-}
-
-nav {
-    background-color: var(--color-secondary); /* Color de fondo de la barra de navegación */
-    margin: 0; 
-    padding: 0; 
-}
-
-nav ul {
-    list-style-type: none;  /* Quitar puntos */
-    display: flex;
-    justify-content: center; /* display para centrar los links */ 
-    margin: 20px; 
-    padding: 20px; 
 }
