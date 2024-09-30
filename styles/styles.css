@@ -3,3 +3,25 @@
     --color-secondary: #14d9c4;
     --color-terciary: #b8b8b9;
 }
+
+.footer {
+    background-color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-nombre-del-grupo {
+    color: #b8b8b9;
+}
+
+.f-equipo {
+    display: block;
+    flex-direction: column;
+}
+
+.f-logo {
+width: 320px;
+}
