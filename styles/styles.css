@@ -3,3 +3,26 @@
     --color-secondary: #14d9c4;
     --color-terciary: #b8b8b9;
 }
+
+.header {
+    padding: 0;
+}
+
+.nombre-equipo {
+    background-color: var(--color-main) 
+
+}
+
+nav {
+    background-color: var(--color-secondary); /* Color de fondo de la barra de navegación */
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul {
+    list-style-type: none;  /* Quitar puntos */
+    display: flex;
+    justify-content: center; /* display para centrar los links */ 
+    margin: 20px; 
+    padding: 20px; 
+}
