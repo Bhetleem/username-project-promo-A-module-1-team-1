@@ -51,28 +51,6 @@
 .ms1-debilidades #debilidades{
     color: var(--color-secondary);
 }
-
-.footer {
-    background-color: white;
-    padding: 1em 0;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.f-nombre-del-grupo {
-    color: #b8b8b9;
-}
-
-.f-equipo {
-    display: block;
-    flex-direction: column;
-}
-
-.f-logo {
-width: 320px;
-}
 .ms2-who-we-are{
     max-width: 600px; 
     margin: 0 auto; 
@@ -102,21 +80,41 @@ width: 320px;
     font-size: 20px;
     color: var(--color-terciary);
 }
-
 .ms2-team-member p {
     font-size: 14px;
     color: var(--color-terciary); 
     margin-bottom: 20px; 
 }
-
 .ms2-social-icons {
     display: flex;
     justify-content: center; 
     gap: 15px; 
 }
-
 .ms2-social-icons a {
     text-decoration: none;
     color: var(--color-terciary); 
     font-size: 20px;
 }
+.footer {
+    background-color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-nombre-del-grupo {
+    color: #b8b8b9;
+}
+
+.f-equipo {
+    display: block;
+    flex-direction: column;
+}
+
+.f-logo {
+width: 320px;
+}
+
+
