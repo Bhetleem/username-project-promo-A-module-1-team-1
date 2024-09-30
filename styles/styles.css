@@ -4,6 +4,44 @@
     --color-terciary: #b8b8b9;
 }
 
+.ms1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ms1-equipo{
+    text-align: center;
+    color: #54585a;
+}
+
+.ms1-equipo #equipo{
+    color: var(--color-secondary);
+}
+
+.ms1-fd{
+    background-color: var(--color-terciary);
+    padding: 8px;
+}
+
+.ms1-fortalezas{
+    text-align: center;
+    color: #54585a;
+}
+
+.ms1-fortalezas #fortalezas{
+    color: var(--color-secondary);
+}
+
+.ms1-debilidades{
+    text-align: center;
+    color: #54585a;
+}
+
+.ms1-debilidades #debilidades{
+    color: var(--color-secondary);
+}
 .header {
     padding: 0;
 }
