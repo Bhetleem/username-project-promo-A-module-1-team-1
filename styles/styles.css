@@ -49,44 +49,44 @@
 }
 
 .ms1 {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
 }
 
 .ms1-equipo {
-  text-align: center;
-  color: #54585a;
-  margin: 0px;
+    text-align: center;
+    color: #54585a;
+    margin: 0px;
 }
 
 .ms1-equipo #equipo {
-  color: var(--color-secondary);
+    color: var(--color-secondary);
 }
 
 .ms1-fd {
-  background-color: var(--color-terciary);
-  padding: 8px;
-  margin: 0px;
+    background-color: var(--color-terciary);
+    padding: 8px;
+    margin: 0px;
 }
 
 .ms1-fortalezas {
-  text-align: center;
-  color: #54585a;
+    text-align: center;
+    color: #54585a;
 }
 
 .ms1-fortalezas #fortalezas {
-  color: var(--color-secondary);
+    color: var(--color-secondary);
 }
 
 .ms1-debilidades {
-  text-align: center;
-  color: #54585a;
+    text-align: center;
+    color: #54585a;
 }
 
 .ms1-debilidades #debilidades {
-  color: var(--color-secondary);
+    color: var(--color-secondary);
 }
 
 .ms2 {
@@ -142,14 +142,14 @@
 }
 
 .f-nombre-del-grupo {
-  color: #b8b8b9;
+    color: #b8b8b9;
 }
 
 .f-equipo {
-  display: block;
-  flex-direction: column;
+    display: block;
+    flex-direction: column;
 }
 
 .f-logo {
-  width: 320px;
+    width: 320px;
 }
