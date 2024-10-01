@@ -51,18 +51,15 @@
 .ms1-debilidades #debilidades{
     color: var(--color-secondary);
 }
-.ms2{
-    
-}
-.ms2-who-we-are{
-    justify-content: center;
-    max-width: 600px; 
-    margin: 0 auto; 
-    padding: 20px; 
-}
 
+.ms2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .ms2-team-member{
-    background-color: white;
+    width: 150px;
     border-radius: 10px;
     margin-bottom: 30px;
     padding: 20px;
@@ -74,13 +71,10 @@
     justify-content: center;
     
 }
-.ms2-team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 5%;
+.ms2-team-member img{
+    width:80%;
     border:5px solid;
-    box-shadow: rgb(233, 227, 227);
-    object-fit: cover; 
+    border-radius: 5%;
     margin-bottom: 20px; 
 }
 .ms2-team-member h4 {
