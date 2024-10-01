@@ -12,40 +12,40 @@
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-main);
-    color: #fff;
-    padding: 0;
-    margin-top: 0;        
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-main);
+  color: #fff;
+  padding: 0;
+  margin-top: 0;
 }
 
 .title {
-    width: 160px;
-    height: 30px;
-    font-family: var(--font-secondary); 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.88;
+  width: 160px;
+  height: 30px;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
 }
 
 .navegador {
-    display: inline-block;
-    background-color: var(--color-secondary);
-    margin: 0px;
-    padding-top: 0px;
-    width: 100%;
+  display: inline-block;
+  background-color: var(--color-secondary);
+  margin: 0px;
+  padding-top: 0px;
+  width: 100%;
 }
 
 .lista {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px 0;
-    font-family: var(--font-secondary); 
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.88;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
 }
 
 .ms1 {
@@ -53,6 +53,7 @@
   flex-direction: column;
   margin: 0px;
   width: 100%;
+  font-family: var(--font-secondary);
 }
 
 .ms1-equipo {
@@ -63,6 +64,10 @@
 
 .ms1-equipo #equipo {
   color: var(--color-secondary);
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  font-weight: bolder;
+  transform: translateY(40%);
 }
 
 .ms1-fd {
@@ -77,7 +82,10 @@
 }
 
 .ms1-fortalezas #fortalezas {
-  color: var(--color-secondary);
+  color: var(--color-main);
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 .ms1-debilidades {
@@ -86,7 +94,10 @@
 }
 
 .ms1-debilidades #debilidades {
-  color: var(--color-secondary);
+  color: var(--color-main);
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 .ms2 {
@@ -134,11 +145,11 @@
   font-size: 20px;
 }
 .footer {
-    background-color: white;
-    text-align: center;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
+  background-color: white;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
 }
 
 .f-nombre-del-grupo {
