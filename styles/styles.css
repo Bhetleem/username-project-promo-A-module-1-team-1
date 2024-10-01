@@ -35,7 +35,8 @@
 }
 
 .navegador {
-    display: inline-block;
+    display: inline-block;    
+    justify-content: center;
     background-color: var(--color-secondary);
     margin: 0px;
     padding-top: 0px;
@@ -47,7 +48,7 @@
 .lista {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    align-items: baseline;
     padding: 10px 0;
     font-family: var(--font-secondary);
     width: 80px;
