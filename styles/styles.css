@@ -17,7 +17,9 @@
     background-color: var(--color-main);
     color: #fff;
     padding: 0;
-    margin-top: 0;        
+    margin-top: 0;
+    width: 320px;
+    height: 60px;        
 }
 
 .title {
@@ -27,6 +29,9 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.88;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
 }
 
 .navegador {
@@ -34,7 +39,9 @@
     background-color: var(--color-secondary);
     margin: 0px;
     padding-top: 0px;
-    width: 100%;
+    width: 320px;
+    height: 45px;
+    color: #fff;
 }
 
 .lista {
@@ -42,10 +49,16 @@
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0;
-    font-family: var(--font-secondary); 
-    font-size: 16px;
+    font-family: var(--font-secondary);
+    width: 80px;
+    height: 30px;
+    margin: 0 0 0 15px; 
+    font-size: 15px;
     font-weight: 500;
-    line-height: 1.88;
+    line-height: 2;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
 }
 
 .ms1 {
@@ -134,9 +147,9 @@
   font-size: 20px;
 }
 .footer {
-    background-color: white;
+    background-color: rgb(182, 36, 36);
     text-align: center;
-    position: sticky;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
