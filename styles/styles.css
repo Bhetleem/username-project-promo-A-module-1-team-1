@@ -134,9 +134,9 @@
   font-size: 20px;
 }
 .footer {
-    background-color: rgb(182, 36, 36);
+    background-color: white;
     text-align: center;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
