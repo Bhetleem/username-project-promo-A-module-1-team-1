@@ -2,11 +2,6 @@
   --color-main: #099d8d;
   --color-secondary: #14d9c4;
   --color-terciary: #b8b8b9;
-}
-:root {
-  --color-main: #099d8d;
-  --color-secondary: #14d9c4;
-  --color-terciary: #b8b8b9;
   --font-main: "Open Sans", sans-serif;
   --font-secondary: "Rubik", sans-serif;
 }
@@ -15,9 +10,22 @@
   padding: 0;
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
 .nombre-equipo {
-  background-color: var(--color-main);
-  font-family: var(--font-secondary);
+    justify-content: center;
+    background-color: var(--color-main);
+    padding: 6px;
+    margin-top: 0;
+}
+
+.navegador {
+    background-color: var(--color-secondary);
+    margin: 0px;
+    width: 100%;
 }
 
 .ms1 {
