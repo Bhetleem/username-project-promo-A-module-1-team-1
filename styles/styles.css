@@ -34,7 +34,6 @@
   letter-spacing: normal;
 }
 
-<<<<<<< HEAD
 .navegador {
   display: inline-block;
   justify-content: center;
@@ -61,33 +60,6 @@
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
-=======
-.navegador {   
-    background-color: var(--color-secondary);
-    margin: 0px;
-    padding-top: 0px;
-    width: 320px;
-    height: 45px;
-    color: #fff;
-}
-
-.lista {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 10px 0;
-    font-family: var(--font-secondary);
-    width: 80px;
-    height: 30px;
-    margin: 0 0 0 15px; 
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 2;
-    font-stretch: normal;
-    font-style: normal;
-    letter-spacing: normal;
->>>>>>> c8f79ef9cd9c51aed7d491aecd08982cf65d2157
 }
 
 .ms1 {
