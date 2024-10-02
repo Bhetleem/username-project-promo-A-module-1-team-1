@@ -8,50 +8,48 @@
 
 .header {
   padding: 0;
-  text-align: center;
+
 }
 
 .header-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--color-main);
   color: #fff;
   padding: 0;
-  margin-top: 0;
+  height: 80px;
+  margin-top: 0; 
 }
 
 .title {
-  width: 160px;
-  height: 30px;
   font-family: var(--font-secondary);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.88;
+  font-size: 20px;
   font-stretch: normal;
   font-style: normal;
+  line-height: 1.88;
   letter-spacing: normal;
+  font-weight: 500;
 }
 
 .navegador {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-secondary);
-  margin: 0px;
-  padding-top: 0px;
-  width: 100%;
+  height: 50px;
 }
 
 .lista {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
+  justify-content: space-evenly; 
   font-family: var(--font-secondary);
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.88;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
+  width: 100%;
+}
+
+.lista li {
+  margin: 0 15px;
 }
 
 .ms1 {
