@@ -8,8 +8,8 @@
 
 .header {
   padding: 0;
- display: flex;
- position: relative;
+  display: flex;
+  position: relative;
 }
 
 .header-container {
@@ -21,7 +21,7 @@
   padding: 0;
   height: 80px;
   margin: 0;
-  z-index: 10; 
+  z-index: 10;
 }
 
 .title {
@@ -36,7 +36,6 @@
 .navegador {
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: rgba(20, 217, 196,0.7);
   height: 50px;
   z-index: 10;
@@ -63,6 +62,26 @@
   z-index: -10;
 }
 
+.contenedor-frase {
+  display: flex;  
+  position: relative;
+  align-content: center;
+  top: -175px;
+  background-color: #fff;
+  width: 350px;
+  padding: 10px 11px 12px;
+  margin-left: 20px; 
+}
+
+.frase-header {
+    color: #000000; 
+    font-family: var(--font-main);
+    font-size: 20px;
+    text-align: justify; 
+    line-height: 1.39;
+    margin: 10px;
+    font-weight: 600;
+}
 
 .ms1 {
   display: flex;
