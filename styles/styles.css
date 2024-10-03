@@ -2,6 +2,7 @@
   --color-main: #099d8d;
   --color-secondary: #14d9c4;
   --color-terciary: #b8b8b9;
+  --color-quaternary: #54585a;
   --font-main: "Open Sans", sans-serif;
   --font-secondary: "Rubik", sans-serif;
 }
@@ -173,22 +174,44 @@
   color: var(--color-terciary);
   font-size: 20px;
 }
+
+
 .footer {
   background-color: rgb(255, 255, 255);
   text-align: center;
+  padding: 80px 0;
   bottom: 0;
   width: 100%;
 }
 
-.f-nombre-del-grupo {
-  color: #b8b8b9;
+.f-container {
+  margin: 0;
 }
 
-.f-equipo {
-  display: block;
-  flex-direction: column;
+.f-nombre-del-grupo {
+  color: #b8b8b9;
+  text-align: center;
+  font-family: var(--font-main);
+}
+
+.footer-links {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer-links li {
+  margin: 1%;
+}
+
+.footer-links a {
+  color: #54585a;
+  font-family: var(--font-main);
 }
 
 .f-logo {
-  width: 320px;
+  width: 280px;
+  align-items: center;
+  
 }
