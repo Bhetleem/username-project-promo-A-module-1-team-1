@@ -146,10 +146,12 @@
   justify-content: center;
 }
 .ms2-team-member img {
-  width: 80%;
+  width: 100%;
   border: 5px solid;
+  border-color: #b8b8b9;
   border-radius: 5%;
   margin-bottom: 20px;
+  
 }
 .ms2-team-member h4 {
   margin-bottom: 10px;
