@@ -1,14 +1,19 @@
-:root{
-    box-sizing: border-box;
-    border:none;
-    margin: 0;
-    padding: 0;
+:root {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: flex;
+}
+body {
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
- /* a:link, :visited, :hover, :active{
+/* a:link, :visited, :hover, :active{
     color: #fff;
-} */ 
+} */
