@@ -48,6 +48,8 @@
 }
 /*navegador*/
 @media (min-width: 768px)  { 
-
+  .footer {
+    display: flex;
+  }
 
 }
