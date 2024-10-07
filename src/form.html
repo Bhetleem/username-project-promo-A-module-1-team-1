@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/reset.scss" />
+    <link rel="stylesheet" href="scss/main.scss" />
+</head>
+<body>
+    <load src="./partials/header.html"/>
+    <section>
+        <p class="title">CONTACTO</p>
+        <p class="text">Para más información puedes ponerte en contacto con nosotras mediante este formulario y te responderemos lo
+        antes posible</p>
+        <p class="text2">Todos os campos marcados con <span class="Asterisk"> * </span>son obligatorios</span></p>
+    </section>
+    <form action="" method="get">
+        <div>
+            <label for="fullName">Nombre completo<span class="Asterisk">*</span></label>
+            <input type="text" id="fullName" name="fullName" />
+        </div>
+        <div>
+            <label for="telephone">Teléfono</label>
+            <input type="tel" id="telephone" name="telephone" />
+        </div>
+        <div>
+            <label for="emailAddress">Correo electrónico <span class="Asterisk">*</span></label>
+            <input type="email" id="emailAddress" name="emailAddress" />
+        </div>
+        <div>
+            <label for="comments">Mensaje<span class="Asterisk">*</span></label>
+        </div>
+        <input type="submit" value="Enviar" />
+    </form>
+    <load src="./partials/footer.html" />
+</body>
+</html>

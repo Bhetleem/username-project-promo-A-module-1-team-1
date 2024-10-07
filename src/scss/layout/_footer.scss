@@ -1,8 +1,32 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
-}
+.footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 80px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .f-container {
+    margin: 0;
+  }
+  .f-nombre-del-grupo {
+    color: #B8B8B9;
+    text-align: center;
+    font-family: var(--font-main);
+  }
+  .footer-links {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .footer-links li {
+    margin: 1%;
+  }
+  .footer-links a {
+    color: #54585A;
+    font-family: var(--font-main);
+  }
+  .f-logo {
+    width: 100px;
+    align-items: center;
+  }
