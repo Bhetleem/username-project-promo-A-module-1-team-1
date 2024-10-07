@@ -49,11 +49,10 @@
   background-image: url('/images/fondo-prog.png'); 
   background-size: cover; 
   background-position: center;
-  position: relative;
 }
 
 .contenedor-frase {
-  position: absolute;
+  position: absolute; /* display flex¿¿*/
   bottom: -50px;
   padding: 10px;
   margin: 15px;
