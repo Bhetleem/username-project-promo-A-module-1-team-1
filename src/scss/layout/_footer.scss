@@ -23,10 +23,17 @@
     margin: 1%;
   }
   .footer-links a {
-    color: #54585A;
+    color: var(--color-quaternary);
     font-family: var(--font-main);
   }
   .f-logo {
     width: 100px;
     align-items: center;
+  }
+
+  @media (min-width: 768px)  { 
+    .footer {
+      display: flex;
+    }
+  
   }
