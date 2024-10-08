@@ -10,6 +10,7 @@
   padding: 10px 0;
   position: absolute;
 }
+
 .title {
   font-family: var(--font-secondary);
   font-size: 20px;
@@ -21,9 +22,9 @@
 .navegador {
   display: flex;
   justify-content: center;
-  background-color: rgba(20, 217, 196,0.7);
   top: 64px;
   width: 100%;
+  background-color: rgba(20, 217, 196,0.7);
   z-index: 10;
   height: 45px;
   position: absolute;
@@ -36,13 +37,12 @@
   font-family: var(--font-secondary);
   width: 100%;
   padding: 0;
+
 }
 .lista li {
   margin: 0 15px;
 }
-.image-class{
-  width: 100%;
-}
+
 .image-container {
   position: relative; 
   height: 400px;
@@ -50,7 +50,9 @@
   background-image: url('/images/fondo-prog.png'); 
   background-size: cover; 
   background-position: center;
+  position: relative;
 }
+
 .contenedor-frase {
   position: absolute;
   bottom: -40px;
@@ -59,6 +61,7 @@
   margin-right: 20px;
   background-color: white;
 }
+
 .frase-header {
     color: #000000;
     font-family: var(--font-main);
