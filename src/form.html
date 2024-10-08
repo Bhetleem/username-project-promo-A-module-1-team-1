@@ -8,31 +8,62 @@
     <link rel="stylesheet" href="./scss/layout/_form.scss" />
 </head>
 <body>
-    <load src="./partials/header.html"/>
-    <section>
-        <p class="title">CONTACTO</p>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header-title">ASANAS</h1>
+          </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list__team"><a href="./index.html#team">EQUIPO</a></li>
+          <li class="nav__list__who"><a href="./index.html#whoweare">QUIÉNES SOMOS</a></li>
+          <li class="nav__list__contact"><a href="#form">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+    <section class="sectionformulary">
+        <p class="title" id="form">CONTACTO</p>
         <p class="text">Para más información puedes ponerte en contacto con nosotras mediante este formulario y te responderemos lo
         antes posible</p>
         <p class="text2">Todos os campos marcados con <span class="Asterisk"> * </span>son obligatorios</span></p>
     </section>
-    <form action="" method="get">
-        <div>
+    <form class="form" action="" method="get">
+        <div class="fullName">
             <label for="fullName">Nombre completo<span class="Asterisk">*</span></label>
-            <input type="text" id="fullName" name="fullName" />
+            <input class="placeholdername" type="text" id="fullName" name="fullName" placeholder="Nombre..."/>
         </div>
         <div>
             <label for="telephone">Teléfono</label>
-            <input type="tel" id="telephone" name="telephone" />
+            <input class="placeholdertlf" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" />
         </div>
         <div>
             <label for="emailAddress">Correo electrónico <span class="Asterisk">*</span></label>
-            <input type="email" id="emailAddress" name="emailAddress" />
+            <input class="placeholderemail" type="email" id="emailAddress" name="emailAddress" placeholder="nombre.apellidos@mail.com"/>
         </div>
         <div>
-            <label for="comments">Mensaje<span class="Asterisk">*</span></label>
+            <label for="comments">Mensaje</label>
+            <input class="placeholdercomments" type="textarea" id="comments" name="comments" placeholder="¿Qué necesitas?" />
         </div>
-        <input type="submit" value="Enviar" />
+        
+        <input class="submit" type="submit" value="Enviar" />
     </form>
-    <load src="./partials/footer.html" />
+
+    <footer class="footer">
+        <div class="f-container">
+          <p class="f-nombre-del-grupo">Nombre del grupo © 2018</p>
+          <ul class="footer-links">
+            <li><a href="./index.html#team">EQUIPO</a></li>
+            <li><a href="./index.html#whoweare">QUIENES SOMOS</a></li>
+            <li><a href="#form">CONTACTO</a></li>
+          </ul>
+          <img
+            src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
+            alt="logo-adalab"
+            class="f-logo"
+          />
+        </div>
+      </footer>
+</main>
 </body>
 </html>
