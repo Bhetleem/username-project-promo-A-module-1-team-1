@@ -8,8 +8,8 @@
   width: 100%;
   z-index: 10;
   padding: 10px 0;
-  position: absolute;
 }
+
 .title {
   font-family: var(--font-secondary);
   font-size: 20px;
@@ -17,6 +17,7 @@
   padding: 10px;
   margin: 0;
 }
+
 .navegador {
   display: flex;
   justify-content: center;
@@ -27,6 +28,7 @@
   height: 45px;
   position: absolute;
 }
+
 .lista {
   list-style: none;
   display: flex;
@@ -34,27 +36,29 @@
   font-family: var(--font-secondary);
   width: 100%;
   padding: 0;
+
 }
 .lista li {
   margin: 0 15px;
 }
+
 .image-container {
-  position: relative;
+  position: relative; 
   height: 400px;
   z-index: 0;
-  background-image: url('/images/fondo-prog.png');
-  background-size: cover;
+  background-image: url('/images/fondo-prog.png'); 
+  background-size: cover; 
   background-position: center;
-  position: relative;
 }
+
 .contenedor-frase {
-  position: absolute;
-  bottom: -40px;
-  left: 20px;
+  position: absolute; /* display flex¿¿*/
+  bottom: -50px;
   padding: 10px;
-  margin-right: 20px;
+  margin: 15px;
   background-color: white;
 }
+
 .frase-header {
     color: #000000;
     font-family: var(--font-main);
@@ -64,3 +68,4 @@
     margin: 0;
     font-weight: 600;
 }
+
