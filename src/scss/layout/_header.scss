@@ -17,18 +17,16 @@
   padding: 10px;
   margin: 0;
 }
-
 .navegador {
   display: flex;
   justify-content: center;
-  background-color: rgba(20, 217, 196,0.7);
   top: 64px;
   width: 100%;
+  background-color: rgba(20, 217, 196,0.7);
   z-index: 10;
   height: 45px;
   position: absolute;
 }
-
 .lista {
   list-style: none;
   display: flex;
@@ -40,16 +38,14 @@
 .lista li {
   margin: 0 15px;
 }
-.image-class{
-  width: 100%;
-}
 .image-container {
-  position: relative; 
+  position: relative;
   height: 400px;
   z-index: 0;
-  background-image: url('/images/fondo-prog.png'); 
-  background-size: cover; 
+  background-image: url('/images/fondo-prog.png');
+  background-size: cover;
   background-position: center;
+  position: relative;
 }
 .contenedor-frase {
   position: absolute;
