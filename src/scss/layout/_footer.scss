@@ -57,3 +57,22 @@
     }
   
   }
+
+  @media all and (min-width: 1200px)  { 
+    .footer {
+      display: flex;
+    }
+
+    .f-nombre-del-grupo {
+      text-align: left;
+    }
+
+    .f-logo {
+      text-align: left;
+    }
+
+    .footer-links {
+      text-align: right;
+    }
+  
+  }
