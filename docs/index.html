@@ -2,68 +2,210 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     
-    <link rel="icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./assets/main-62015576.css">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/index-ac7612d3.css">
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-  <img src="./images/logo-adalab.png" alt="Adalab">
-  <h1>Bienvenidos a Adalab</h1>
+    <header>
+  <div class="header-container">
+    <h1 class="title">NOMBRE DEL GRUPO</h1>
+  </div>
+  <nav class="navegador">
+    <ul class="lista">
+      <li class="lista-uno"><a href="#equipo">EQUIPO</a></li>
+      <li class="lista-dos"><a href="#ms2-team-member">QUIÉNES SOMOS</a></li>
+      <li class="lista-tres"><a href="/form.html">CONTACTO</a></li>
+    </ul>
+  </nav>
+
+  <div class="image-container">
+    <div class="contenedor-frase">
+      <p class="frase-header">
+        Eres más fuerte de lo que piensas, más valiente de lo que crees y capaz
+        de lograr todo lo que te propongas.
+      </p>
+    </div>
+  </div>
 </header>
 
-      <main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-    </li>
-    <li>
-      <a class="{=$aClass}" href="./more-info.html">Más info del starter kit</a>
-
-    </li>
-  </ul>
+    <main>
+  <section class="ms1">
+    <section class="ms1-equipo" id="team">
+      <div id="equipo">EQUIPO</div>
+      <p>
+        Nuestro equipo está compuesto por cuatro talentosas programadoras, cada
+        una aportando habilidades únicas que nos hacen más fuertes
+      </p>
+      <p>
+        Juntas, formamos un equipo diverso y complementario, comprometido con la
+        excelencia y la innovación en cada uno de nuestros desarrollos.
+      </p>
+    </section>
+    <section class="ms1-fd">
+      <div class="ms1-rect"></div>
+      <section class="ms1-fortalezas">
+        <div id="fortalezas">Fortalezas</div>
+        <article>
+          <p>
+            <strong>Diversidad de habilidades:</strong> Cada integrante aporta
+            un conjunto único de habilidades técnicas, desde front-end y
+            back-end hasta inteligencia artificial, lo que permite abordar
+            proyectos de manera integral.
+          </p>
+          <p>
+            <strong>Colaboración efectiva:</strong> Fomentan un ambiente de
+            trabajo en equipo, donde la comunicación fluida y la colaboración
+            son clave para alcanzar objetivos comunes.
+          </p>
+          <p>
+            <strong>Adaptabilidad:</strong> El equipo es capaz de ajustarse
+            rápidamente a cambios en los requerimientos del proyecto o en las
+            tecnologías utilizadas.
+          </p>
+          <p>
+            <strong>Resolución de problemas:</strong> Tienen una fuerte
+            capacidad para identificar y resolver problemas técnicos, abordando
+            desafíos de manera creativa y eficiente.
+          </p>
+          <p>
+            <strong>Compromiso con el aprendizaje:</strong> Todas están
+            motivadas por el crecimiento profesional, lo que les lleva a
+            actualizarse constantemente.
+          </p>
+          <p>
+            <strong>Enfoque en la experiencia del usuario:</strong> Son
+            conscientes de la importancia de diseñar soluciones funcionales,
+            intuitivas y agradables para el usuario final.
+          </p>
+        </article>
+      </section>
+      <section class="ms1-debilidades">
+        <div id="debilidades">Debilidades</div>
+        <p>
+          <strong>Falta de experiencia en ciertas tecnologías:</strong> Aunque
+          el equipo tiene fortalezas en varias áreas, puede haber lagunas en el
+          conocimiento de tecnologías emergentes o específicas.
+        </p>
+        <p>
+          <strong>Gestión del tiempo:</strong> A veces, pueden tener
+          dificultades para cumplir plazos, especialmente si surgen imprevistos
+          que desvían el enfoque.
+        </p>
+        <p>
+          <strong>Dificultad para establecer prioridades:</strong> En proyectos
+          complejos, puede haber confusión sobre qué tareas son más urgentes o
+          importantes, afectando la eficiencia del trabajo.
+        </p>
+      </section>
+    </section>
+  </section>
 </main>
 
-      <footer class="page__footer">
-  <small>
-    &copy; Todos los derechos reservados
-    <a class="link__adalab" href="https://adalab.es">Adalab</a>
+    <main>
+  <section class="ms2" id="whoweare">
+    <div class="container">
+      <h2 class="tittle-section">QUIÉNES SOMOS</h2>
 
-  </small>
+      <div class="person-list">
+      <div class="person left person--flex">
+      <img class="foto-belen left rectangle Belen" src="./images/Belén.jpg" alt="Belén Carmona Florido" />
+      <div class="person__text">
+        <h3>Belén Carmona Florido</h3>
+        <p class="biografia">
+          Vivo en Málaga <br />Futura programadora web <br />Soy entusiasta, positiva y con mucha iniciativa. Lo que más me define es la motivación por el logro y pasión por el detalle</p>
+        <div class="center">
+          <a href=#><i class="fa-brands fa-twitter" style="color: #099d8d;"></i></a>
+          <p class="point">·</p>
+          <a href="https://www.linkedin.com/in/belen-carmona-8bb5ab71/"><i class="fa-brands fa-linkedin" style="color: #099d8d;"></i></a>
+          <p class="point">·</p>
+          <a href="https://www.facebook.com/belen.carmona.315"> <i class="fa-brands fa-facebook" style="color: #099d8d;"></i></a>
+        </div>
+      </div>
+      </div>
+
+      <div class="person right person--flex">
+        <img class="foto-marta right rectangle Marta" src="./images/Marta.jpg" alt="Marta Moya Sereno" />
+        <div class="person__text">
+          <h3>Marta Moya Sereno</h3>
+        <p class="biografia">
+          Vivo en Madrid, 28 años. <br />Futura programadora web. <br />Hacer rutas por el campo y pintar son algunas de las actividades que más me conectan conmigo misma.</p>
+        <div class="center">
+          <a href="#"><i class="fa-brands fa-twitter" style="color: #099d8d;"></i></a>
+          <p class="point">·</p>
+          <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #099d8d;"></i></a>
+          <p class="point">·</p>
+          <a href="https://es-es.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook" style="color: #099d8d;"></i></a>
+        </div>
+      </div>
+    </div>
+
+      <div class="person left person--flex">
+        <img class="foto-Kristhinne left rectangle Kris" src="./images/Kristhinne.jpeg" alt="Kristhinne Alvarez Gonzalez" />
+        <div class="person__text">
+        <h3>Kristhinne Alvarez Gonzalez</h3>
+          <p class="biografia">
+            Vivo en Vitoria-Gasteiz, 28 años <br/>Futura programadora web<br/> Adoro leer y últimamente, me he aficionado mucho a los audiolibros</p>
+          <div class="center">
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #099d8d;"></i></a>
+            <p class="point">·</p>
+            <a href="https://www.linkedin.com/in/kristhinne-alvarez-gonzalez-31a948329/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #099d8d;"></i></a>
+            <p class="point">·</p>
+            <a href="https://www.facebook.com/kris.alvarez.946?locale=es_ES" target="_blank"><i class="fa-brands fa-facebook" style="color: #099d8d;"></i></a>
+          </div>
+        </div>
+        </div>
+
+        <div class="person right person--flex">
+          <img class="foto-maria right rectangle Maria" src="./images/María.jpg" alt="María Guerrero Lobo"/>
+          <div class="person__text">
+          <h3>María Guerrero Lobo</h3>
+          <p class="biografia">
+            Vivo en Madrid, 29 años <br/> Futura programadora web <br/>Lo que más me apasiona es viajar, los animales, en especial los gatitos. Adoro los deportes, lo que más practico es yoga y tenis</p>
+          <div class="center">
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #099d8d;"></i></a>
+            <p class="point">·</p>
+            <a href="https://www.linkedin.com/in/mar%C3%ADa-guerrero-lobo-98719819b?trk=contact-info"><i class="fa-brands fa-linkedin" style="color: #099d8d;"></i></a>
+            <p class="point">·</p>
+            <a href="https://www.facebook.com/profile.php?id=100079170471708" target="_blank"> <i class="fa-brands fa-facebook" style="color: #099d8d;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</main>
+    <footer class="footer">
+  <div class="f-container">
+    <p class="f-nombre-del-grupo">Nombre del grupo © 2018</p>
+    <ul class="footer-links">
+      <li><a href="#">EQUIPO</a></li>
+      <li><a href="#">QUIENES SOMOS</a></li>
+      <li><a href="#">CONTACTO</a></li>
+    </ul>
+    <img
+      src="https://adalab.es/wp-content/uploads/2022/03/logo-adalab.png"
+      alt="logo-adalab"
+      class="f-logo"
+    />
+  </div>
 </footer>
 
-    </div>
-    <script src="./js/main.js"></script>
   </body>
 </html>
